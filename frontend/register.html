@@ -15,8 +15,10 @@ const validate = (e)=>{
   return true;
 }
 </script>
+<link rel="stylesheet" href="./static/style.css">
+
 </head>
-<body>
+<body class="slds-p-around_none slds-has-full-bleed">
 <div style="display: flex;background-color: rgb(209, 103, 156);justify-content: center;margin-left:35%;margin-right:35%;margin-top:5%;padding:2%;border: solid grey 2px;">
 <form action="/api/add_customer" method="POST" onsubmit="return validate()">
     <div class="form-group">
