@@ -28,7 +28,7 @@ app.use(session({
 const port = 3000;
 
 // MongoDB connection URI and database name
-const uri =  "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.10";
+
 mongoose.connect(uri, {'dbName': 'customerDB'});
 
 // Middleware to parse JSON requests
